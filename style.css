@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dff6ff, #ffffff);
+    min-height: 100vh;
+    color: #222;
+}
+
+header {
+    background: #168de2;
+    color: white;
+    padding: 20px 8%;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 10%;
+    gap: 40px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.small-title {
+    color: #168de2;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 25px;
+
+    padding: 14px 30px;
+
+    border: none;
+    border-radius: 30px;
+
+    background: #168de2;
+    color: white;
+
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #096bb0;
+}
+
+#message {
+    margin-top: 20px;
+    color: #168de2;
+    font-weight: bold;
+}
+
+.image-box img {
+    width: 300px;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #168de2;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+}
